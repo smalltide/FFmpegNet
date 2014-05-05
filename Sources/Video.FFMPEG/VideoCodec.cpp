@@ -13,9 +13,9 @@ namespace libffmpeg
 {
 	extern "C"
 	{
-		#pragma warning(disable:4635) 
-		#pragma warning(disable:4244) 
-		#include "libavcodec\avcodec.h"
+#pragma warning(disable:4635)
+#pragma warning(disable:4244)
+#include "libavcodec\avcodec.h"
 	}
 }
 
@@ -45,4 +45,4 @@ int pixel_formats[] =
 	libffmpeg::AV_PIX_FMT_BGR24,
 };
 
-int CODECS_COUNT ( sizeof( video_codecs ) / sizeof( libffmpeg::AVCodecID ) );
+int CODECS_COUNT(sizeof(video_codecs) / sizeof(libffmpeg::AVCodecID));

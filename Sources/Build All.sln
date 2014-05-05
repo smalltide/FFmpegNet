@@ -28,12 +28,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video.VFW", "Video.VFW\Vide
 		{26CD2CE7-FF63-4669-83B0-7D9C8F3408EE} = {26CD2CE7-FF63-4669-83B0-7D9C8F3408EE}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video.Ximea", "Video.Ximea\Video.Ximea.csproj", "{AEDD6CFB-747B-4077-9288-9CD2A86090F1}"
-	ProjectSection(ProjectDependencies) = postProject
-		{631AC093-430F-45F4-BA0C-AF0F0405918A} = {631AC093-430F-45F4-BA0C-AF0F0405918A}
-		{809725DC-6502-4732-A51C-DEB7FEA12975} = {809725DC-6502-4732-A51C-DEB7FEA12975}
-	EndProjectSection
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Video.FFMPEG.LGPL", "Video.FFMPEG\Video.FFMPEG.LGPL.vcxproj", "{FF31DD24-127D-4EB1-929C-F5738147E886}"
 EndProject
 Global
@@ -200,30 +194,6 @@ Global
 		{22E852C0-17FF-4106-9DF6-41EABB8C0613}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{22E852C0-17FF-4106-9DF6-41EABB8C0613}.Release|Win32.ActiveCfg = Release|Any CPU
 		{22E852C0-17FF-4106-9DF6-41EABB8C0613}.Release|x64.ActiveCfg = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug Complete|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug Complete|Any CPU.Build.0 = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug Complete|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug Complete|Mixed Platforms.Build.0 = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug Complete|Win32.ActiveCfg = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug Complete|x64.ActiveCfg = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release Complete|Any CPU.ActiveCfg = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release Complete|Any CPU.Build.0 = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release Complete|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release Complete|Mixed Platforms.Build.0 = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release Complete|Win32.ActiveCfg = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release Complete|x64.ActiveCfg = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release|Win32.ActiveCfg = Release|Any CPU
-		{AEDD6CFB-747B-4077-9288-9CD2A86090F1}.Release|x64.ActiveCfg = Release|Any CPU
 		{FF31DD24-127D-4EB1-929C-F5738147E886}.Debug Complete|Any CPU.ActiveCfg = Debug|Win32
 		{FF31DD24-127D-4EB1-929C-F5738147E886}.Debug Complete|Mixed Platforms.ActiveCfg = Debug|Win32
 		{FF31DD24-127D-4EB1-929C-F5738147E886}.Debug Complete|Mixed Platforms.Build.0 = Debug|Win32
