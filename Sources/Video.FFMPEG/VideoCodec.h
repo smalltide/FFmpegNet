@@ -64,6 +64,26 @@ namespace AForge {
 				/// Raw (uncompressed) video.
 				/// </summary>
 				Raw,
+				/// <summary>
+				/// FF video codec 1 lossless codec.
+				/// </summary>
+				///
+				FFV1,
+				/// <summary>
+				/// FFmpeg's HuffYUV lossless codec.
+				/// </summary>
+				///
+				FFVHUFF,
+				/// <summary>
+				/// H.264/MPEG-4 Part 10.
+				/// </summary>
+				///
+				H264,
+				/// <summary>
+				/// H.264/MPEG-4 Part 10.
+				/// </summary>
+				///
+				Theora
 			};
 		}
 	}

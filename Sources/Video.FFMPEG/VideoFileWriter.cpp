@@ -438,14 +438,39 @@ namespace AForge {
 						// OM (2013-05-31)
 						// These formats do not like a bit_rate of 0
 						// Let's try to put at least something (qscale/q) usefull in there
-						if ((codecContext->codec_id == libffmpeg::AV_CODEC_ID_WMV1)
-							|| (codecContext->codec_id == libffmpeg::AV_CODEC_ID_WMV2))
+						if ((codecContext->codec_id == libffmpeg::AV_CODEC_ID_WMV1) || (codecContext->codec_id == libffmpeg::AV_CODEC_ID_WMV2))
 						{
 							codecContext->bit_rate = 31 * ((100.0 - quality) / 100.0) * 1000;
 							if (codecContext->bit_rate == 0)
 							{
 								codecContext->bit_rate = 1;
 							}
+						}
+						else if (codecContext->codec_id == libffmpeg::CODEC_ID_MPEG1VIDEO)
+						{
+							codecContext->mb_decision = 2;
+						}
+						else if (codecContext->codec_id == libffmpeg::CODEC_ID_H264)
+						{
+							codecContext->bit_rate_tolerance = 0;
+							codecContext->rc_max_rate = 0;
+							codecContext->rc_buffer_size = 0;
+							codecContext->gop_size = 40;
+							codecContext->max_b_frames = 3;
+							codecContext->b_frame_strategy = 1;
+							codecContext->coder_type = 1;
+							codecContext->me_cmp = 1;
+							codecContext->me_range = 16;
+							codecContext->qmin = 10;
+							codecContext->qmax = 51;
+							codecContext->scenechange_threshold = 40;
+							codecContext->flags |= CODEC_FLAG_LOOP_FILTER;
+							codecContext->me_subpel_quality = 5;
+							codecContext->i_quant_factor = 0.71;
+							codecContext->qcompress = 0.6;
+							codecContext->max_qdiff = 4;
+							codecContext->directpred = 1;
+							codecContext->flags2 |= CODEC_FLAG2_FASTPSKIP;
 						}
 						else
 						{

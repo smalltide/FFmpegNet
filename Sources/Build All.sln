@@ -5,11 +5,6 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{631AC093-430F-45F4-BA0C-AF0F0405918A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaging", "Imaging\Imaging.csproj", "{C6A8B9AE-0749-41C7-8FF9-02C156696F45}"
-	ProjectSection(ProjectDependencies) = postProject
-		{631AC093-430F-45F4-BA0C-AF0F0405918A} = {631AC093-430F-45F4-BA0C-AF0F0405918A}
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaging.Formats", "Imaging.Formats\Imaging.Formats.csproj", "{50050BA8-B739-4931-8DBA-D77A031537FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video", "Video\Video.csproj", "{809725DC-6502-4732-A51C-DEB7FEA12975}"
@@ -74,30 +69,6 @@ Global
 		{631AC093-430F-45F4-BA0C-AF0F0405918A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{631AC093-430F-45F4-BA0C-AF0F0405918A}.Release|Win32.ActiveCfg = Release|Any CPU
 		{631AC093-430F-45F4-BA0C-AF0F0405918A}.Release|x64.ActiveCfg = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug Complete|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug Complete|Any CPU.Build.0 = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug Complete|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug Complete|Mixed Platforms.Build.0 = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug Complete|Win32.ActiveCfg = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug Complete|x64.ActiveCfg = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release Complete|Any CPU.ActiveCfg = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release Complete|Any CPU.Build.0 = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release Complete|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release Complete|Mixed Platforms.Build.0 = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release Complete|Win32.ActiveCfg = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release Complete|x64.ActiveCfg = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release|Win32.ActiveCfg = Release|Any CPU
-		{C6A8B9AE-0749-41C7-8FF9-02C156696F45}.Release|x64.ActiveCfg = Release|Any CPU
 		{50050BA8-B739-4931-8DBA-D77A031537FF}.Debug Complete|Any CPU.ActiveCfg = Debug|Any CPU
 		{50050BA8-B739-4931-8DBA-D77A031537FF}.Debug Complete|Any CPU.Build.0 = Debug|Any CPU
 		{50050BA8-B739-4931-8DBA-D77A031537FF}.Debug Complete|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -216,8 +187,8 @@ Global
 		{FF31DD24-127D-4EB1-929C-F5738147E886}.Release Complete|x64.ActiveCfg = Release|x64
 		{FF31DD24-127D-4EB1-929C-F5738147E886}.Release Complete|x64.Build.0 = Release|x64
 		{FF31DD24-127D-4EB1-929C-F5738147E886}.Release|Any CPU.ActiveCfg = Release|Win32
-		{FF31DD24-127D-4EB1-929C-F5738147E886}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{FF31DD24-127D-4EB1-929C-F5738147E886}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{FF31DD24-127D-4EB1-929C-F5738147E886}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{FF31DD24-127D-4EB1-929C-F5738147E886}.Release|Mixed Platforms.Build.0 = Release|x64
 		{FF31DD24-127D-4EB1-929C-F5738147E886}.Release|Win32.ActiveCfg = Release|Win32
 		{FF31DD24-127D-4EB1-929C-F5738147E886}.Release|Win32.Build.0 = Release|Win32
 		{FF31DD24-127D-4EB1-929C-F5738147E886}.Release|x64.ActiveCfg = Release|x64

@@ -21,28 +21,36 @@ namespace libffmpeg
 
 int video_codecs[] =
 {
-	libffmpeg::AV_CODEC_ID_MPEG4,
-	libffmpeg::AV_CODEC_ID_WMV1,
-	libffmpeg::AV_CODEC_ID_WMV2,
-	libffmpeg::AV_CODEC_ID_MSMPEG4V2,
-	libffmpeg::AV_CODEC_ID_MSMPEG4V3,
-	libffmpeg::AV_CODEC_ID_H263P,
-	libffmpeg::AV_CODEC_ID_FLV1,
-	libffmpeg::AV_CODEC_ID_MPEG2VIDEO,
-	libffmpeg::AV_CODEC_ID_RAWVIDEO
+	libffmpeg::CODEC_ID_MPEG4,
+	libffmpeg::CODEC_ID_WMV1,
+	libffmpeg::CODEC_ID_WMV2,
+	libffmpeg::CODEC_ID_MSMPEG4V2,
+	libffmpeg::CODEC_ID_MSMPEG4V3,
+	libffmpeg::CODEC_ID_H263P,
+	libffmpeg::CODEC_ID_FLV1,
+	libffmpeg::CODEC_ID_MPEG2VIDEO,
+	libffmpeg::CODEC_ID_RAWVIDEO,
+	libffmpeg::CODEC_ID_FFV1,
+	libffmpeg::CODEC_ID_FFVHUFF,
+	libffmpeg::CODEC_ID_H264,
+	libffmpeg::CODEC_ID_THEORA,
 };
 
 int pixel_formats[] =
 {
-	libffmpeg::AV_PIX_FMT_YUV420P,
-	libffmpeg::AV_PIX_FMT_YUV420P,
-	libffmpeg::AV_PIX_FMT_YUV420P,
-	libffmpeg::AV_PIX_FMT_YUV420P,
-	libffmpeg::AV_PIX_FMT_YUV420P,
-	libffmpeg::AV_PIX_FMT_YUV420P,
-	libffmpeg::AV_PIX_FMT_YUV420P,
-	libffmpeg::AV_PIX_FMT_YUV420P,
-	libffmpeg::AV_PIX_FMT_BGR24,
+	libffmpeg::PIX_FMT_YUV420P,
+	libffmpeg::PIX_FMT_YUV420P,
+	libffmpeg::PIX_FMT_YUV420P,
+	libffmpeg::PIX_FMT_YUV420P,
+	libffmpeg::PIX_FMT_YUV420P,
+	libffmpeg::PIX_FMT_YUV420P,
+	libffmpeg::PIX_FMT_YUV420P,
+	libffmpeg::PIX_FMT_YUV420P,
+	libffmpeg::PIX_FMT_BGR24,
+	libffmpeg::PIX_FMT_YUV420P,
+	libffmpeg::PIX_FMT_RGB32,
+	libffmpeg::PIX_FMT_YUVJ420P,
+	libffmpeg::PIX_FMT_YUV420P,
 };
 
 int CODECS_COUNT(sizeof(video_codecs) / sizeof(libffmpeg::AVCodecID));
