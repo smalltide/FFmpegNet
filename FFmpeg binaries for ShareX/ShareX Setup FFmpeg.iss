@@ -55,8 +55,7 @@ const
    PreviousAppID = '82E6AC09-0FEF-4390-AD9F-0DD3F5561EFC';
    AppFolder     = 'ShareX';
 
-   UninstallPath = 'Software\Microsoft\Windows\CurrentVersion\Uninstall\{'
-                  + PreviousAppID + '}_is1';
+   UninstallPath = 'Software\Microsoft\Windows\CurrentVersion\Uninstall\' + PreviousAppID + '_is1';
 
    // Some posts have 'InstallDir', but I have never observed that
    InstallKey    = 'InstallLocation';
